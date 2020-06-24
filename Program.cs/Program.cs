@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Program.cs
 {
-    class ArrayMaxResult
+   /* class ArrayMaxResult
     {
         static void Main(string[] args)
         {
@@ -47,4 +47,47 @@ namespace Program.cs
         
         }
     }
+   */
+
+    class LeapYearCalendar
+    {
+                static void Main(string[] args)
+            {
+            DateTime myValue = DateTime.Now;
+            Console.WriteLine( "Here is the current year: " + myValue.ToShortDateString()); //month,day,year
+
+            bool correct = false;
+     
+
+            do{
+
+            Console.WriteLine("Enter a year to find out if it is a leap year!: ");
+            Console.ReadLine();
+
+            }while(correct);
+            {
+            for (int year = 1990; year <= 2020; year++)
+              {
+            if (DateTime.IsLeapYear(year))
+         {
+            Console.WriteLine("{0} is a leap year.", year);
+            DateTime leapDay = new DateTime(year, 2, 29);
+            DateTime nextYear = leapDay.AddYears(1);
+            Console.WriteLine("   One year from {0} is {1}.",
+                              leapDay.ToString("d"),
+                              nextYear.ToString("d"));
+         }
+      }
+            }
+            Console.ReadLine();
+
+            }
+}
+
+
+
+
+
+
+
 }

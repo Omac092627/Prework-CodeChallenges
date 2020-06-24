@@ -35,4 +35,5 @@ Name of Challenge
 Instructions of Challenge
 Screen capture of successful output.
 
-![Array Max Results](\Users\oogun\Desktop\401)
+![Array Max Results](./images/ArrayMaxResult.PNG)
+![Leap Year Assignment](./images/LeapYearAssignment.PNG)
