@@ -49,7 +49,7 @@ namespace Program.cs
     }
    */
 
-    class LeapYearCalendar
+    /*class LeapYearCalendar
     {
                 static void Main(string[] args)
             {
@@ -82,12 +82,50 @@ namespace Program.cs
             Console.ReadLine();
 
             }
-}
+    */
+
+  /*  class PerfectSequence
+        {
+        
+       public static void Main(string[] args)  
+      {  
+          int n, i, m=0, flag=0;    
+          Console.Write("Enter the Number to check Prime: ");    
+          
+          n = int.Parse(Console.ReadLine());  
+
+             int sum = 0;
+                while (n != 0) {
+                sum += n % 10;
+                 n /= 10;
+
+          m=n/2;    
+          for(i = 2; i <= m; i++)    
+          {    
+           if(n % i == 0)    
+            {    
+             Console.Write("No");    
+             Console.ReadLine();
+             flag=1;    
+             break;    
+            }    
+          }    
+          if (flag==0)    
+           Console.Write("Yes");      
+           Console.ReadLine();
+     }  
+        
+        //Perfect number is a positive number which sum of all positive divisors excluding that number is equal to that number. For example 6 is perfect number since divisor of 6 are 1, 2 and 3.  Sum of its divisor is 1 + 2+ 3 = 6
+    
+    
+
+    }
+    }
+  */
 
 
 
+    }
+    
 
 
-
-
-}
