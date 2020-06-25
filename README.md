@@ -9,7 +9,15 @@ Each challenge should be it's own branch.
 Practice using your git work flow during the construction of this project. 
 Refer to the git work flow doc as a reference.
 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 Problem 1: Array Max Result
+
 Problem Statement
 Given an array select a number that exists, and output the computated "score". 
 The method you create should take in both an array of integers and the integer the user selected.
@@ -29,10 +37,17 @@ Sample Output
 8
 
 
+
+
 ![Array Max Results](./images/ArrayMaxResult.PNG)
 
 
-Problem 2: Leap Year Calculator
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Problem 2: Leap Year Calculator
+
+
+
 Problem Statement
 Given a year, report if it is a leap year.
 
@@ -49,4 +64,42 @@ Want to know more about Leap Year? Watch this 4 minute video HERE{:target="_blan
 Note: This is not a trick problem. Edge cases do not need to be taken into consideration when creating a solution.
 
 
+
+
 ![Leap Year Assignment](./images/LeapYearAssignment.PNG)
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+Problem 3: Perfect Sequence
+Problem Statement
+Given an array, return "Yes" if the sequence is considered a perfect sequence. Otherwise, return "No"
+
+Perfect Sequences
+A perfect sequence is a sequence such that all of its elements are non-negative integers and the product of all of them is equal to their sum. For example: [2,2], [1,3,2] and [0,0,0,0] are perfect sequences and [4,5,6] and [0,2,-2] are not perfect sequences. Negative numbers of any kind are not valid in a perfect sequence
+
+Input Format
+An array of integers (may not be sorted)
+
+Sample Input
+[1,3,2]
+
+Sample Output
+Yes
+
+Explanation
+1 * 3 * 2 = 6 && 1 + 3 + 2 = 6
+
+
+
+
+![Perfect Sequence: Yes!](./images/PerfectSequenceYes.PNG)
+![Perfect Sequence: No!](./images/PerfectSequenceNo.PNG)
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
