@@ -124,8 +124,51 @@ namespace Program.cs
   */
 
 
+  /*  class SumOfRows
+        {
+          public static void Main()  
+    {  
+        int rows, cols, sumRow, sumCol;  
 
+          
+        //Initialize matrix a  
+        Random rnd = new Random();
+        int[,] a = new int[3,5];
+        for(int i=0;i<3;i++)
+        {
+            for(int j=0;j<5;j++)
+            {
+                a[i, j]= rnd.Next(1, 10);
+            }
     }
-    
 
+          //Calculates number of rows and columns present in given matrix  
+          rows = a.GetLength(0);  
+        cols = a.GetLength(1);  
+          
+        //Calculates sum of each row of given matrix  
+        for(int i = 0; i < rows; i++){  
+            sumRow = 0;  
+            for(int j = 0; j < cols; j++){  
+              sumRow = sumRow + a[i,j];  
+            }  
+            Console.Write(" Sum of  " + (i+1) + " row: " + sumRow);  
+        }  
+          
+        //Calculates sum of each column of given matrix  
+        for(int i = 0; i < cols; i++){  
+            sumCol = 0;  
+            for(int j = 0; j < rows; j++){  
+              sumCol = sumCol + a[j,i];  
+            }  
+        }  
+        Console.ReadLine();
+        
+    }
+    }
+  */
+
+
+
+ }
 
