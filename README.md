@@ -44,10 +44,10 @@ Sample Output
 
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Problem 2: Leap Year Calculator
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-
+Problem 2: Leap Year Calculator
 Problem Statement
 Given a year, report if it is a leap year.
 
@@ -96,8 +96,10 @@ Explanation
 
 
 
-![Perfect Sequence: Yes!](./images/PerfectSequenceYes.PNG)
-![Perfect Sequence: No!](./images/PerfectSequenceNo.PNG)
+![Perfect Sequence: Yes!](./images/perfectSequenceYes.PNG)
+
+
+![Perfect Sequence: No!](./images/perfectSequenceNo.PNG)
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
